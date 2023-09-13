@@ -1,0 +1,72 @@
+body {
+  background: url("towns_017.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.SignUpBox {
+  background: rgba(44, 62, 80, 0.7);
+  padding: 40px;
+  width: 250px;
+  margin-top: 90px;
+  margin-left: 180px;
+  margin: 0 auto;
+}
+
+form {
+  width: 240px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+input {
+  width: 240px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 18px;
+  font-weight: 200px;
+  padding: 10px 0px;
+  transition: border 0.5s;
+  outline: none;
+  height: 35px;
+  color: white;
+}
+
+button {
+  border: none;
+  width: 190px;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+.SignUpBox h2 {
+  color: yellow;
+  font-family: tahoma;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  color: cyan;
+}
+
+.SignIn p {
+  color: #ffffff;
+  font-family: Tahoma;
+}
+
+::placeholder {
+  color: whitesmoke;
+  opacity: 0.6;
+}
